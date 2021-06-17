@@ -225,14 +225,16 @@ iframe {
     padding-left: 50px;
     color: #b9b9b9;
     height: 70px;
-    width: 340px;
+    max-width: 340px;
+    width: 100%;
     background-color: #e5e5e5;
     border: none;
     border-radius: 8px; }
   .touch textarea {
     margin-left: 10px;
     height: 250px;
-    width: 707px;
+    max-width: 707px;
+    width: 100%;
     border: none;
     border-radius: 8px;
     background-color: #e5e5e5;
@@ -245,7 +247,8 @@ iframe {
     color: white;
     font-size: 18px;
     height: 70px;
-    width: 707px;
+    max-width: 707px;
+    width: 100%;
     background-color: red;
     border: none;
     border-radius: 8px;
