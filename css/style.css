@@ -1,0 +1,296 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+header {
+  background-color: #f6f2f2;
+  height: 690px;
+  padding-top: 30px; }
+
+.menu {
+  background-color: #313030;
+  height: 90px;
+  max-width: 1250px;
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+  .menu h3 {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase; }
+  .menu a:hover {
+    background-color: red;
+    height: 100%;
+    width: 90px; }
+  .menu a {
+    padding-top: 20px;
+    margin-left: 30px;
+    text-decoration: none; }
+
+.info {
+  display: flex; }
+  .info h1 {
+    padding-top: 100px;
+    text-transform: uppercase;
+    font-size: 60px; }
+  .info p {
+    max-width: 512px;
+    color: #9a9898;
+    font-size: 16px; }
+  .info .us {
+    margin-top: 60px;
+    padding-top: 15px;
+    background-color: red;
+    border-radius: 8px;
+    box-sizing: border-box;
+    height: 55px;
+    width: 266px;
+    border: 1px solid transparent;
+    text-align: center; }
+    .info .us a {
+      text-decoration: none;
+      color: white;
+      font-size: 18px; }
+
+.vid {
+  box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.5);
+  margin-top: 130px;
+  margin-left: 110px; }
+
+iframe {
+  background-image: none;
+  height: 100%;
+  width: 520px; }
+
+.foryou {
+  padding-top: 115px;
+  background-color: #ffffff; }
+  .foryou h2 {
+    font-size: 42px;
+    text-transform: uppercase;
+    color: #585858;
+    padding-bottom: 55px; }
+  .foryou p {
+    color: #000000;
+    font-size: 16px;
+    padding-bottom: 60px; }
+  .foryou a {
+    padding-top: 15px;
+    display: inline-block;
+    background-color: transparent;
+    border-radius: 8px;
+    box-sizing: border-box;
+    height: 55px;
+    width: 266px;
+    border: 2px solid red;
+    text-align: center;
+    text-decoration: none;
+    color: red;
+    font-size: 18px; }
+
+.info i {
+  color: red;
+  font-size: 31px; }
+.info h4 {
+  color: #737373;
+  font-size: 24px; }
+.info p {
+  font-size: 16px;
+  color: #a0a0a0; }
+.info .for {
+  padding-top: 115px; }
+
+.hr {
+  max-width: 1240px;
+  width: 100%;
+  margin: auto;
+  padding-top: 110px;
+  border-bottom: 2px solid #ececec; }
+
+.products h2 {
+  font-size: 42px;
+  color: #585858;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 105px; }
+.products p {
+  padding-top: 36px;
+  font-size: 16px;
+  color: #aaaaaa;
+  margin: auto;
+  text-align: center;
+  max-width: 505px; }
+.products p:after {
+  display: block;
+  content: "";
+  background-color: transparent;
+  height: 2px;
+  width: 1%;
+  margin: auto;
+  transition: 0.3s; }
+.products p:hover:after, .products p :after {
+  background-color: red;
+  width: 70%; }
+
+.menu2 {
+  padding-top: 124px;
+  text-align: center;
+  padding-bottom: 65px; }
+  .menu2 li {
+    display: inline; }
+    .menu2 li a {
+      margin-right: 60px;
+      font-size: 22px;
+      text-transform: uppercase;
+      color: #737373;
+      text-decoration: none; }
+    .menu2 li a:hover {
+      content: "";
+      color: red; }
+
+.user_img {
+  width: 285px;
+  height: 250px;
+  background-color: #f5f0dd;
+  display: inline-block;
+  overflow: hidden; }
+
+.user_img img {
+  display: block;
+  width: 100%;
+  height: 100%; }
+
+.tips {
+  margin-top: 140px;
+  background-color: #f5f0dd;
+  height: 515px; }
+  .tips h2 {
+    color: white;
+    font-size: 42px;
+    text-align: center;
+    padding-top: 140px; }
+  .tips p {
+    color: white;
+    font-size: 16px;
+    text-align: center; }
+  .tips input {
+    padding-left: 35px;
+    margin-left: 320px;
+    align-items: center;
+    margin-top: 65px;
+    height: 80px;
+    width: 580px;
+    border: none;
+    color: #969696; }
+  .tips button {
+    text-transform: uppercase;
+    color: white;
+    font-size: 18px;
+    height: 80px;
+    width: 215px;
+    background-color: red;
+    border: none;
+    border-radius: 8px;
+    margin-left: 20px; }
+
+.touch {
+  padding-left: 165px;
+  padding-right: 65px; }
+  .touch h2 {
+    font-size: 42px;
+    color: #585858;
+    text-transform: uppercase;
+    padding-top: 105px;
+    padding-left: 25px; }
+  .touch p {
+    font-size: 16px;
+    color: #7f7f7f;
+    padding-top: 55px;
+    padding-bottom: 75px;
+    padding-left: 25px; }
+  .touch p::after {
+    display: block;
+    content: "";
+    background-color: transparent;
+    height: 2px;
+    width: 1%;
+    margin-top: 30px;
+    transition: 0.3s; }
+  .touch p:hover:after, .touch p :after {
+    background-color: red;
+    width: 70%; }
+  .touch input {
+    margin-left: 10px;
+    padding-left: 50px;
+    color: #b9b9b9;
+    height: 70px;
+    width: 340px;
+    background-color: #e5e5e5;
+    border: none;
+    border-radius: 8px; }
+  .touch textarea {
+    margin-left: 10px;
+    height: 250px;
+    width: 707px;
+    border: none;
+    border-radius: 8px;
+    background-color: #e5e5e5;
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-left: 50px; }
+  .touch button {
+    margin-left: 10px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 18px;
+    height: 70px;
+    width: 707px;
+    background-color: red;
+    border: none;
+    border-radius: 8px;
+    margin-top: 18px; }
+
+.contact {
+  background-color: #2d2d2d;
+  margin-top: 418px;
+  max-width: 575px;
+  height: 464px; }
+  .contact h4 {
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 145px;
+    margin-left: 75px; }
+  .contact p {
+    font-size: 16px;
+    color: white;
+    margin-left: 75px; }
+
+footer {
+  margin-top: 110px;
+  height: 110px;
+  width: 100%;
+  background-color: #313030; }
+  footer .social {
+    padding-left: 500px;
+    padding-top: 40px; }
+  footer p {
+    padding-left: 165px;
+    padding-top: 50px;
+    color: #a3a3a3; }
+  footer a {
+    margin-left: 8px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 25px;
+    border: solid 1px #d7d7d7;
+    border-radius: 50%;
+    background-color: #d7d7d7; }
+  footer i {
+    margin-top: 7px;
+    color: #313030; }
+
+/*# sourceMappingURL=style.css.map */
